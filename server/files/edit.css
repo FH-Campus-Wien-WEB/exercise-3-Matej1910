@@ -1,11 +1,39 @@
 @import url(base.css);
 
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d8d8d8;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
 input,
 select,
 textarea {
   width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #444;
 }
 
 div {
-  margin: 4px 0px;
+  margin: 8px 0;
 }
